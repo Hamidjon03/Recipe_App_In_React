@@ -58,6 +58,7 @@ function Popular() {
 
 const Wrapper = styled.div`
   margin: 4rem 0rem;
+  
 `;
 
 const Card = styled.div`
@@ -76,7 +77,7 @@ const Card = styled.div`
     object-fit: cover;
   }
   p{
-    postion: absolute;
+    position: absolute;
     z-index: 10;
     left: 50%;
     bottom: 0%;
